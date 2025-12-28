@@ -1,16 +1,35 @@
-# personal_expense_tracker
+Personal Expense Tracker
 
-A new Flutter project.
+A Flutter-based Android application developed for the Flutter Developer Technical Assessment.
+The app allows authenticated users to securely manage personal expenses using a clean Material 3 interface and a Supabase-backed backend.
 
-## Getting Started
+PROJECT OVERVIEW
 
-This project is a starting point for a Flutter application.
+• Email and password authentication with session persistence
+• Create, view, edit, and delete expenses
+• User-specific data access enforced via Supabase Row Level Security
+• Structured navigation using GoRouter with authentication guard
+• State management using Riverpod with code generation
+• Strongly typed data models using json_serializable
 
-A few resources to get you started if this is your first Flutter project:
+TECH STACK
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+• Flutter (Android) with Material 3 UI
+• Supabase (Authentication and PostgreSQL)
+• Routing: GoRouter
+• State Management: Riverpod (code generation)
+• Data Modeling: json_serializable
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+SETUP INSTRUCTIONS
+
+Prerequisites
+• Flutter SDK (stable)
+• Android Studio or VS Code
+• Supabase account and project
+
+FEATURES
+
+• expense categories: Food, Travel, Shopping, Bills, Others
+• Total expense summary on home screen
+• Proper loading, empty, and error states
+• Clean, modular, and maintainable architecture
